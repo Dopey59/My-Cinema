@@ -1,0 +1,61 @@
+                              !__  MODIFIER / AJOUTER / SUPPRIMER UN ABONNEMENT CLIENT __!
+
+                                        EXEMPLE AVEC LE USER 5 :
+Méthodologie  1 |
+
+Subscription = 
+    id abonnement
+   1 	VIP 	Le mois tout compris 	60 	30 	50
+	 2 	GOLD 	L'annee complete 	500 	365 	60
+	 3 	Classic 	Abonnement mensuel classique 	40 	30 	10
+	 4 	Pass Day 	Pass valable une journee 	15 	1 	10
+
+Users =
+    id      email                fistname     lastname
+     5 	brent.roberts@zivilzit.fr 	Brent 	Roberts
+
+Memberships =
+
+	id  	id_user     id_subscription 	
+	1 	       5 	            3 	
+
+Résultats de l'exemple : 
+    _ L'id du user choisis est "5".
+    _ L'id du type d'abonnement qui se trouve dans SUBSCRIPTION est de 1 à 5. 
+    _ L'id du SUBSCRIPTION choisit est de 3 provenant, du user avec l'id "5".
+      ET que c'est le user correspondant à l'id "5"
+      qui à choisit l'abonnement classique à l'Id correspondant "3" de la table SUBS.
+
+        __________________________________________________________________________________________
+
+Problématique -> Voir à qui appartient chaque abonnement -> AJouter boutons : Modifier/Ajouter OU SUPP. 
+
+Etape 1 : 
+Lier la base de données.
+
+Etape 2: 
+Récupérer les informations du formulaire.
+
+Etape 3 : 
+Sytème de recherche SQL.
+
+Etape 4: 
+Affichage des données.
+
+Etape 5 : 
+Ajouter les boutons de modifications à côté de chaquer user correspondants.
+
+
+
+FONCTION DU BOUTTON "MODIFIER" : 
+
+Je veux :
+
+CLiquer sur un autre abonnement ET quand je clique -> VIP -> subscription.name change en fonction du sub choisit.
+
+if (ISSET_GET(value){
+
+}
+
+
+AJout d'une entrée : AJouter un film vu avec date dans l'historique.

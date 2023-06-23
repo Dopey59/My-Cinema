@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"></rel>
+    <title>Recherche</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav__title">
+                <h1>My Cinema</h1>
+            </div>
+            <img  class="nav__popcorn" src="./assets/popcorn.png">
+            <div class="navbar">
+                <ul>
+                    <li>
+                        <a href="./index.html">Home </a>
+                    </li>
+                    <li>
+                        <a href="./logsprgm/login_form.php">Login &#9881;</a>
+                    </li>
+                    <li>
+                        <a href="./user.html">Search users &#127902;</a>
+                    </li>
+                    <li>
+                        <a href="./projection.html"> Dates | Projections&#127902;</a>
+                    </li>
+                    <li>
+                        <a href="./seances.html">Movies &#128269;</a>
+                    </li>
+                    <li>
+                        <a href="./members.html">Subs &#128269;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section>
+        <form method="GET" action="db_personnes.php">
+            <h3><i class="recherche">Search a user</h3>
+        <label for="name">Firstname</label>
+        <input type="text" id="search" name="Firstname" placeholder="Franck...">
+
+        <label for="name">Lastname</label>
+        <input type="text" id="search" name="Lastname" placeholder="Ribéry...">
+        <br>
+        <p><input class="input--bg-yellow" type="submit" value="Valider"></p>
+        </form>
+    </section>
+</body>
+</html>
