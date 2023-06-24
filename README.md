@@ -1,5 +1,5 @@
 # My-Cinema
-👨🏻‍💻 Projet scolaire
+| 👨🏻‍💻 Projet scolaire |
 
 
 
