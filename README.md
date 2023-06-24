@@ -11,7 +11,7 @@ Dans ce projet, nous devions créer un système de recherche de films par Auteur
 
 
 
-🛠️ Technologies utilisés:
+🛠️ Technologies utilisées:
 
 Base de donnée Mysql, Php natif. 
 
