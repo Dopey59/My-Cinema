@@ -2,14 +2,20 @@
 Projet scolaire
 
 
+
+
 ✏️ Description du projet: 
 
 Dans ce projet, nous devions créer un système de recherche de films par Auteur, Nom de films, dates de séances etc..
 
 
+
+
 🛠️ Technologies utilisés:
 
 Base de donnée Mysql, Php natif. 
+
+
 
 
 📖 Réalisation et durée du projet: 
