@@ -4,7 +4,9 @@
 
 ✏️ Description du projet: 
 
-Dans ce projet, nous devions créer un système de recherche de films par Auteur, Nom de films, dates de séances etc..
+Dans ce projet, nous devions créer un système de recherche de films par Auteur, Nom de films, dates de séances mais aussi des utilisateurs enregistrés dans la base de données !
+
+Cela a été un de mes premiers projets Epitech.
 
 
 🛠️ Technologies utilisées:
